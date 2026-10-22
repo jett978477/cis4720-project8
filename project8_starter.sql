@@ -241,3 +241,4 @@ SELECT * FROM ITEM_SOURCE;
 DROP USER IF EXISTS 'buyer'@'localhost';
 CREATE USER 'buyer'@'localhost' IDENTIFIED BY 'Buyer#2026';
 GRANT SELECT ON inventory_db.ITEM_SOURCE TO 'buyer'@'localhost';
+--cretes a new user called buyer with a password to verify the grant of select on the view ITEM_SOURCE.
